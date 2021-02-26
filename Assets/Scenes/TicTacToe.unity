@@ -1731,6 +1731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   error1: {fileID: 639196420}
   error2: {fileID: 46896250}
+  isWinning: 0
 --- !u!4 &825156024
 Transform:
   m_ObjectHideFlags: 0
@@ -3278,6 +3279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 588b14ffda1ae9540827203186b30323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Timer: {fileID: 825156023}
   playerXIcon: {fileID: 1149325342}
   playerOIcon: {fileID: 1510054391}
   player1InputField: {fileID: 361400662}
