@@ -46,14 +46,9 @@ public class DialogueHandler : MonoBehaviour
                break;
            case DialogueLine.DialogueType.BadEnd:
                UIManager.Instance.gameObject.SetActive(false);
-               Player.instance.canMove = true;
-               Player.instance.canInteract = true;
                break;
            case DialogueLine.DialogueType.GoodEnd:
                UIManager.Instance.gameObject.SetActive(false);
-               Player.instance.canMove = true;
-               Player.instance.canInteract = true;
-               Player.instance.SetMinionCount(Player.instance.minionsCount + 1);
                break;
            default:
                break;
