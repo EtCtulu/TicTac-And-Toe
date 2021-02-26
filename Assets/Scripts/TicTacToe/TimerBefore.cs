@@ -1,20 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TimerBefore : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private IEnumerator Timer()
     {
-        
+        yield return new WaitForSeconds(7f);
+
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        yield return 0;
+
     }
 
-    private 
 }
