@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameStateController : MonoBehaviour
 {
+    [Header("Timer")]
+    public TimerBefore Timer;
+
     [Header("TitleBar References")]
     public Image playerXIcon;                                       
     public Image playerOIcon;                                      
@@ -109,15 +112,22 @@ public class GameStateController : MonoBehaviour
         {
             case "D":
                 winnerText.text = "DRAW";
+                Timer.isWinning = true;
+                Timer.StartCoroutine(Timer.YouTriedToWin());
                 break;
             case "X":
                 winnerText.text = player1Name;
+                Timer.isWinning = true;
+                Timer.StartCoroutine(Timer.YouTriedToWin());
                 break;
             case "O":
                 winnerText.text = player2Name;
+                Timer.isWinning = true;
+                Timer.StartCoroutine(Timer.YouTriedToWin());
                 break;
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        Timer.isWinning = true;
+        Timer.StartCoroutine(Timer.YouTriedToWin());
         endGameState.SetActive(true);
         ToggleButtonState(false);
     }
