@@ -6,15 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Game/Menus/MainMenu.unity
     guid: cc675d345b3c8eb4591aa09844a12858
   - enabled: 1
-    path: Assets/Scenes/TicTacToe.unity
+    path: Assets/Scenes/Game/TicTacToe.unity
     guid: f1fffa246dbb75443ba50102f291c660
   - enabled: 1
-    path: Assets/Scenes/MainMenu2.unity
+    path: Assets/Scenes/Game/Menus/MainMenu2.unity
     guid: 1417de6656b2fed4bad20eb16f1d07d9
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Game/Choice.unity
     guid: c1b084985f8fed541a7a8d727b879491
+  - enabled: 1
+    path: Assets/Scenes/Game/Novel/Bar.unity
+    guid: eeb822963da806c4bb1f9e58f1ddb3ee
+  - enabled: 1
+    path: Assets/Scenes/Game/Novel/Parc.unity
+    guid: 03df42e5e47218b41a125513acd9c61e
+  - enabled: 1
+    path: Assets/Scenes/Game/Novel/Plage.unity
+    guid: cfb409e83dbd33b47b25ae60cbd5d3fc
   m_configObjects: {}
