@@ -31,7 +31,7 @@ public class DialogueHandler : MonoBehaviour
        this.characterInfo = characterInfo;
        currentDialogueIdx = 0;
        UIManager.Instance.canvas.SetActive(true);
-       UIManager.Instance.characterInfo = characterInfo;
+       //UIManager.Instance.characterInfo = characterInfo;
        UIManager.Instance.DisplayDialogue(characterInfo.dialogueList[currentDialogueIdx]);
    }
    

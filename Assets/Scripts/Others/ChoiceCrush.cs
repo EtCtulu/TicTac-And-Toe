@@ -19,5 +19,4 @@ public class ChoiceCrush : MonoBehaviour
     {
         SceneManager.LoadScene("Plage");
     }
-
 }
