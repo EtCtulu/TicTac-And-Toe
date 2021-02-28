@@ -31,7 +31,7 @@ public class DialogueHandler : MonoBehaviour
        this.characterInfo = characterInfo;
        currentDialogueIdx = 0;
        UIManager.Instance.canvas.SetActive(true);
-       //UIManager.Instance.characterInfo = characterInfo;
+       UIManager.Instance.characterInfo = characterInfo;
        UIManager.Instance.DisplayDialogue(characterInfo.dialogueList[currentDialogueIdx]);
    }
    
@@ -45,10 +45,12 @@ public class DialogueHandler : MonoBehaviour
                UIManager.Instance.DisplayDialogue(characterInfo.dialogueList[currentDialogueIdx]);
                break;
            case DialogueLine.DialogueType.BadEnd:
-               UIManager.Instance.gameObject.SetActive(false);
+                ScenesManager.Instance.LoadCredits();
+               //UIManager.Instance.gameObject.SetActive(false);
                break;
            case DialogueLine.DialogueType.GoodEnd:
-               UIManager.Instance.gameObject.SetActive(false);
+                ScenesManager.Instance.LoadCredits();
+               //UIManager.Instance.gameObject.SetActive(false);
                break;
            default:
                break;

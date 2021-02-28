@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Novel/Plage.unity
     guid: cfb409e83dbd33b47b25ae60cbd5d3fc
+  - enabled: 1
+    path: Assets/Scenes/Game/Credits.unity
+    guid: 8e6fe7ea73e6f1e458da23fafe615d8f
   m_configObjects: {}
