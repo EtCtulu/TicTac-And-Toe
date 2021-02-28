@@ -49,17 +49,23 @@ public class DialogueHandler : MonoBehaviour
            case DialogueLine.DialogueType.Dialogue:
                currentDialogueIdx = characterInfo.dialogueList[currentDialogueIdx].nextLineIndex;
                UIManager.Instance.DisplayDialogue(characterInfo.dialogueList[currentDialogueIdx]);
-                FindObjectOfType<AudioManager>().Play("1");
+                sound = UnityEngine.Random.Range(1, 5);
+                soundtostring = sound.ToString();
+                FindObjectOfType<AudioManager>().Play(soundtostring);
                 break;
            case DialogueLine.DialogueType.BadEnd:
                 ScenesManager.Instance.LoadCredits();
                 //UIManager.Instance.gameObject.SetActive(false);
-                FindObjectOfType<AudioManager>().Play("1");
+                sound = UnityEngine.Random.Range(1, 5);
+                soundtostring = sound.ToString();
+                FindObjectOfType<AudioManager>().Play(soundtostring);
                 break;
            case DialogueLine.DialogueType.GoodEnd:
                 ScenesManager.Instance.LoadCredits();
                 //UIManager.Instance.gameObject.SetActive(false);
-                FindObjectOfType<AudioManager>().Play("1");
+                sound = UnityEngine.Random.Range(1, 5);
+                soundtostring = sound.ToString();
+                FindObjectOfType<AudioManager>().Play(soundtostring);
                 break;
            default:
                break;

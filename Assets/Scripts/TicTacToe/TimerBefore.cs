@@ -26,7 +26,7 @@ public class TimerBefore : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Error");
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(5f);
 
         if (isWinning == false)
         {
@@ -34,7 +34,7 @@ public class TimerBefore : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Error");
         }
 
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(1.5f);
 
         if (isWinning == false)
         {
@@ -53,7 +53,7 @@ public class TimerBefore : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Error");
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(5f);
 
         if (isWinning == true)
         {
@@ -61,7 +61,7 @@ public class TimerBefore : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Error");
         }
 
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(1.5f);
 
         if (isWinning == true)
         {
