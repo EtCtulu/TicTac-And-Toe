@@ -1517,7 +1517,7 @@ MonoBehaviour:
   - {fileID: 7193538256932455454}
   descriptionImage: {fileID: 8664439729689992946}
   textTyper: {fileID: 8664439729351945425}
-  typingSpeed: 0.05
+  typingSpeed: 0.03
   dialogueHandler: {fileID: 6695983508134237778}
 --- !u!114 &8664439729351945425
 MonoBehaviour:

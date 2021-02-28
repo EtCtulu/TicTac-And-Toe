@@ -55,6 +55,14 @@ public class DialogueHandler : MonoBehaviour
            default:
                break;
        }
+       if(characterInfo.dialogueList[currentDialogueIdx].isCharacterTalking)
+       {
+           UIManager.Instance.nameZoneText.gameObject.SetActive(false);
+       }
+       else
+       {
+           UIManager.Instance.nameZoneText.gameObject.SetActive(true);
+       }
    }
    
    public void Choicemaker(int choiceParam)
