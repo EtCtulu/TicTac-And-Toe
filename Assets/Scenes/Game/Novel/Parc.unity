@@ -322,6 +322,268 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &554289201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8664439729699999551}
+    m_Modifications:
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -880.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 468.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986281, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_Name
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053504637703986287, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8664439729351945424}
+    - target: {fileID: 6053504637703986287, guid: 8b7475021b689b542bbf93e43c92c25d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMenu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b7475021b689b542bbf93e43c92c25d, type: 3}
+--- !u!224 &554289202 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6053504637703986280, guid: 8b7475021b689b542bbf93e43c92c25d,
+    type: 3}
+  m_PrefabInstance: {fileID: 554289201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &786927533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 786927535}
+  - component: {fileID: 786927534}
+  m_Layer: 0
+  m_Name: Gamerz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &786927534
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786927533}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 79592aee53866ff4b98be6a67cbe87cb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &786927535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786927533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1078980344
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +650,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1978473135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1978473137}
+  - component: {fileID: 1978473136}
+  m_Layer: 0
+  m_Name: funky_night_with_funky_men
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1978473136
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978473135}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7f4613e9c05422e448feedf230b1ebeb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.05
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1978473137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978473135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &283688169897353623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +820,20 @@ MonoBehaviour:
   - {fileID: 3307609253472753222, guid: a2ae3a55dce39e34daa4bf1bfc9f791d, type: 3}
   - {fileID: 598340038878294989, guid: ce24b4b91480d1548a3cb347894f6dd9, type: 3}
   - {fileID: -806203207636093938, guid: 2ca32999c7ed57a458456227d767ab50, type: 3}
+  mainCharacterSprite:
+  - {fileID: -8601871783382158749, guid: 3d343ae47686f144381e717346ad6ad0, type: 3}
+  - {fileID: -5724077001146505544, guid: 0407b7253fc9cd14784b523f0c2d12ae, type: 3}
+  - {fileID: -6964378280659659314, guid: 3d278aaacf8a478468780b03b65e2dd4, type: 3}
+  - {fileID: 4538647880506710638, guid: fc9f7f182b6194b43bec44d3a73532fb, type: 3}
+  - {fileID: -5743877137225031365, guid: cb20c214e37644141ae323e4b3d06785, type: 3}
+  - {fileID: -1424433873885203634, guid: 867933c666bc805448aea422ba015bc7, type: 3}
+  - {fileID: -7564392088477330997, guid: 7014b6a421416474e8c3847a0211c10c, type: 3}
+  - {fileID: -1777922600597557694, guid: 3179411e375a64542804a8cdda85b60c, type: 3}
+  - {fileID: 8580352971482666360, guid: 8e56d907adf5f8b4e9498c028864eebc, type: 3}
+  - {fileID: -6504533043834447420, guid: b08f8dd319171d94a9088522658225da, type: 3}
+  - {fileID: 7157611523953171506, guid: 95ce0d2056c2b0b41ab476d603ad966b, type: 3}
+  - {fileID: -8609918997846732612, guid: fdf3cc59fc1918f4cb8a0f8a8c67176e, type: 3}
+  - {fileID: -5635763400485113442, guid: 59c622af71fb8de4b84c72ef2061422b, type: 3}
   myCharacterName: Pipper
   myDescriptionSprite: {fileID: 0}
   myDialogueList:
@@ -440,6 +843,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 1
     characterSpriteIdx: 5
+    mcSpriteIdx: 12
     choices: []
   - type: 1
     text: "(Oh mon dieu il est si kawaii et il s\u2019appelle Tictac...)"
@@ -447,6 +851,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 0
     characterSpriteIdx: 9
+    mcSpriteIdx: 8
     choices:
     - choiceDialogue: Merci bien jolie jeune fille.
       choiceidx: 2
@@ -460,6 +865,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 6
     characterSpriteIdx: 7
+    mcSpriteIdx: 9
     choices: []
   - type: 0
     text: "D\xE9sol\xE9 je ne voulais pas vous emb\xEAter..."
@@ -467,6 +873,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 6
     characterSpriteIdx: 1
+    mcSpriteIdx: 0
     choices: []
   - type: 0
     text: "H\xE9h\xE9, ne me remercie pas UwU !"
@@ -474,6 +881,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 5
     characterSpriteIdx: 5
+    mcSpriteIdx: 7
     choices: []
   - type: 0
     text: "(Q~~ pourquoi j'ai dit \xE7a, il va me trouver bizarre...)"
@@ -481,6 +889,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 6
     characterSpriteIdx: 9
+    mcSpriteIdx: 8
     choices: []
   - type: 0
     text: (Allez ressaissis toi Pipper, tu peux le faire~~)
@@ -488,6 +897,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 7
     characterSpriteIdx: 9
+    mcSpriteIdx: 8
     choices: []
   - type: 0
     text: "T\u2019es venu tout seul ici ou tu attends quelqu\u2019un ? \nAhah c\u2019est
@@ -496,6 +906,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 8
     characterSpriteIdx: 7
+    mcSpriteIdx: 3
     choices: []
   - type: 1
     text: "(C\u2019\xE9tait vraiment nulle comme phrase d\u2019accroche...)"
@@ -503,6 +914,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 9
     characterSpriteIdx: 1
+    mcSpriteIdx: 3
     choices:
     - choiceDialogue: Je suis venu manger des glaces.
       choiceidx: 9
@@ -516,6 +928,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 0
     characterSpriteIdx: 9
+    mcSpriteIdx: 10
     choices:
     - choiceDialogue: "J\u2019adore la vanille c\u2019est mon parfum pr\xE9f\xE9r\xE9"
       choiceidx: 10
@@ -529,6 +942,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 15
     characterSpriteIdx: 6
+    mcSpriteIdx: 4
     choices: []
   - type: 0
     text: "Mhhh, pas mal, j\u2019ai une pr\xE9f\xE9rence pour la vanille quand m\xEAme."
@@ -536,6 +950,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 15
     characterSpriteIdx: 7
+    mcSpriteIdx: 9
     choices: []
   - type: 0
     text: "Aaaaaaah, H\xC9R\xC9TIQUE !"
@@ -543,6 +958,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 15
     characterSpriteIdx: 0
+    mcSpriteIdx: 0
     choices: []
   - type: 0
     text: "EEEEEEEEEK, j-j-j-je, m\u2019attendais pas \xE0 \xE7a."
@@ -550,6 +966,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 15
     characterSpriteIdx: 9
+    mcSpriteIdx: 12
     choices: []
   - type: 0
     text: "Bienvenue au club, ma co' internet as coup\xE9, oblig\xE9 de sortir, grrrr~~."
@@ -557,6 +974,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 15
     characterSpriteIdx: 0
+    mcSpriteIdx: 8
     choices: []
   - type: 1
     text: "\xC7a va faire 5h que j\u2019ai plus de co et ma 5G est morte.\nGrrrr
@@ -566,6 +984,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 0
     characterSpriteIdx: 0
+    mcSpriteIdx: 5
     choices:
     - choiceDialogue: "T\xE9l\xE9charger ill\xE9galement c\u2019est mieux \xE8w\xE9
         !"
@@ -581,6 +1000,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 19
     characterSpriteIdx: 0
+    mcSpriteIdx: 0
     choices: []
   - type: 0
     text: "Kugaya Same Love is Love ! C\u2019est mon anim\xE9 pr\xE9-f\xE9-r\xE9
@@ -589,6 +1009,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 19
     characterSpriteIdx: 7
+    mcSpriteIdx: 9
     choices: []
   - type: 0
     text: Je sais pas lire -_-.
@@ -596,6 +1017,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 19
     characterSpriteIdx: 1
+    mcSpriteIdx: 5
     choices: []
   - type: 1
     text: "Mais \xE7a t\u2019arrives de regarder des anim\xE9s ?"
@@ -603,6 +1025,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 0
     characterSpriteIdx: 9
+    mcSpriteIdx: 8
     choices:
     - choiceDialogue: "Bah justement Kugaya Same Love is Love, j\u2019adore j\u2019ai
         commenc\xE9 il y a peu et c\u2019est mon anim\xE9 pr\xE9f\xE9r\xE9 ^^"
@@ -618,6 +1041,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 23
     characterSpriteIdx: 2
+    mcSpriteIdx: 1
     choices: []
   - type: 0
     text: "J\u2019esp\xE8re tu joues \xE0 autre chose :/"
@@ -625,6 +1049,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 24
     characterSpriteIdx: 1
+    mcSpriteIdx: 5
     choices: []
   - type: 0
     text: "Mais naaaaan, je l\u2019ai fini avant hier, j\u2019attends trop la suite
@@ -634,6 +1059,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 23
     characterSpriteIdx: 7
+    mcSpriteIdx: 2
     choices: []
   - type: 2
     text: "Hey, \xE7-\xE7-\xE7-\xE7a te dirais de venir chez moi ?\nOn pourrais faire
@@ -642,6 +1068,7 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 0
     characterSpriteIdx: 9
+    mcSpriteIdx: 2
     choices: []
   - type: 3
     text: Heu, j-j-je dois y aller, salut~~ !
@@ -649,7 +1076,77 @@ MonoBehaviour:
     isCharacterTalking: 0
     nextLineIndex: 0
     characterSpriteIdx: 1
+    mcSpriteIdx: 12
     choices: []
+--- !u!1001 &4197648437629751759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 237.99731
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 327.39935
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52.315796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599089, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197648438522599091, guid: 9e31ddbf3c82b8045b7b7ff4928b3140,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e31ddbf3c82b8045b7b7ff4928b3140, type: 3}
 --- !u!224 &4227163217488701777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1580,6 +2077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   background: {fileID: 8664439730283806861}
   characterImage: {fileID: 8664439728992681892}
+  maincImage: {fileID: 13577189}
   dialogueBox: {fileID: 8664439729910998353}
   dialogueBoxText: {fileID: 8664439730510978322}
   canvas: {fileID: 8664439729699999550}
@@ -1813,6 +2311,7 @@ RectTransform:
   - {fileID: 8664439729986952947}
   - {fileID: 8664439729689992945}
   - {fileID: 8664439730076342787}
+  - {fileID: 554289202}
   m_Father: {fileID: 8664439729351945455}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

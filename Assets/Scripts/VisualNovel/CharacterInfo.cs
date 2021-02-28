@@ -13,6 +13,13 @@ public class CharacterInfo : MonoBehaviour
         private set { myCharacterSprites = value; }
     }
 
+    [SerializeField] private List<Sprite> mainCharacterSprite;
+    public List<Sprite> MainCharacterSprite
+    {
+        get { return mainCharacterSprite; }
+        private set { mainCharacterSprite = value; }
+    }
+
     [SerializeField] private string myCharacterName;
     
     public string CharacterName

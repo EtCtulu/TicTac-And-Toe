@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
   public Image background;
   public Image characterImage;
+    public Image maincImage;
   public Image dialogueBox;
   public TextMeshProUGUI dialogueBoxText;
   public GameObject canvas;
@@ -42,6 +44,8 @@ public class UIManager : MonoBehaviour
   {
     int spriteidx = dialogueLine.characterSpriteIdx;
     characterImage.sprite = _characterInfo.CharacterSprite[spriteidx];
+        int mcidx = dialogueLine.mcSpriteIdx;
+        maincImage.sprite = _characterInfo.MainCharacterSprite[mcidx];
     DisplayContinueButton(false);
     textTyper.StartTyping(dialogueLine,dialogueBoxText,typingSpeed);
     if (dialogueLine.type == DialogueLine.DialogueType.Choice)
@@ -94,7 +98,14 @@ public class UIManager : MonoBehaviour
     {
       _characterInfo = value;
       characterImage.sprite = _characterInfo.CharacterSprite[0];
+            maincImage.sprite = characterInfo.MainCharacterSprite[0];
       nameZoneText.text = _characterInfo.CharacterName;
     }
   }
+
+    public void ReturnMenu()
+    {
+        SceneManager.LoadScene("MainMenu2");
+    }
+
 }

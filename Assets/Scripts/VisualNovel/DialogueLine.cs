@@ -12,6 +12,7 @@ public class DialogueLine
     public bool isCharacterTalking;
     public int nextLineIndex = 0;
     public int characterSpriteIdx;
+    public int mcSpriteIdx;
     public List<Choice> choices;
     public enum DialogueType{   Dialogue = 0, Choice = 1, GoodEnd = 2, BadEnd = 3}
 }

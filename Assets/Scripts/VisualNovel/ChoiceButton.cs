@@ -19,5 +19,6 @@ public class ChoiceButton : MonoBehaviour
     public void OnClick()
     {
         UIManager.Instance.OnClickChoiceButton(choice.choiceidx);
+        FindObjectOfType<AudioManager>().Play("1");
     }
 }

@@ -3,8 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DialogueHandler : MonoBehaviour
 {
+    private int sound = 0;
+    private string soundtostring;
+
     public CharacterInfo characterInfo;
     public int  currentDialogueIdx;
     public static DialogueHandler Instance;
@@ -17,8 +21,10 @@ public class DialogueHandler : MonoBehaviour
        else
            Destroy (gameObject);
    }
-   
-   public void OnDialogueLineEnd()
+
+    
+
+    public void OnDialogueLineEnd()
    {
        List<DialogueLine> dialogueList = UIManager.Instance.characterInfo.dialogueList;
        
@@ -43,15 +49,18 @@ public class DialogueHandler : MonoBehaviour
            case DialogueLine.DialogueType.Dialogue:
                currentDialogueIdx = characterInfo.dialogueList[currentDialogueIdx].nextLineIndex;
                UIManager.Instance.DisplayDialogue(characterInfo.dialogueList[currentDialogueIdx]);
-               break;
+                FindObjectOfType<AudioManager>().Play("1");
+                break;
            case DialogueLine.DialogueType.BadEnd:
                 ScenesManager.Instance.LoadCredits();
-               //UIManager.Instance.gameObject.SetActive(false);
-               break;
+                //UIManager.Instance.gameObject.SetActive(false);
+                FindObjectOfType<AudioManager>().Play("1");
+                break;
            case DialogueLine.DialogueType.GoodEnd:
                 ScenesManager.Instance.LoadCredits();
-               //UIManager.Instance.gameObject.SetActive(false);
-               break;
+                //UIManager.Instance.gameObject.SetActive(false);
+                FindObjectOfType<AudioManager>().Play("1");
+                break;
            default:
                break;
        }
